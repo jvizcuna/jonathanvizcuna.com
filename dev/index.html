@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Screen Background Video</title>
+  <meta name="description" content="Full screen background video demo">
+  <meta name="author" description="Call Me JohnyV">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="flex-container">
+  <div class="content flex-item">
+    <img src="media/logo-jv.png" alt="" width="140"/>
+    <h1 class="content__heading">JONATHAN VIZCUÑA</h1>
+    <p class="content__teaser">New site coming soon. Stay tuned!</p>
+    <img class="trsp-50" src="media/jv-signature.png" alt="" width="80" />
+    <div class="clearBox"></div>
+  </div><!-- /content -->
+</div>
+
+<div id="vignette" class="overlay vignette"></div>
+<div id="noise" class="overlay noise"></div>
+<div id="background-container" class="background-container">
+  <div id="background-output" class="background-output"></div>
+</div>
+
+<footer>
+	<script src="js/flat-surface-shader.js"></script>
+	<script src="js/shader.js"></script>
+</footer>
+
+</body>
+</html>
